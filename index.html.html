@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Website saya</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icon/logo.png" alt="logo" class="logo-img" />
+				<h1 class="logo-title">ERJI</h1>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#jasa">Kata" Motivasi</a></li>
+					<li><a href="mailto:erjison03yahoo@gmail.com">EMAIL</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">INSTAGRAM</button>
+		</header>
+        <div class="container">
+			<div class="intro">
+				<p class="title">Saya Erji!</p>
+				<p class="description">"SELAMAT DATANG DI WEBSITE SAYA"</p>
+				<img src="assets/foto/erji.JPG" alt="erji.jpg" class="img-foto"/>
+			</div>
+		</div>
+        <div class="parallax">
+			<div class="tentang">
+				<p class="title">Mau tau tentang saya</p>
+				<p class="description">Hubungi saja di Wa</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Whatsapp</button>
+				</div>
+			</div>
+			<div class="container">
+					<div class="card" id="jasa">
+						<div class="card-item">
+							<img src="assets/icon/kecil.jpg" alt="icon 1" class="icon"/>
+							<p class="card-title">Tidak ada istilah gagal dalam hidup, yang ada hanya sukses dan belum berhasil.</p>
+							<p class="card-description">Jangan menyerah!</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/icon/ibu.jpg" alt="icon 2"  class="icon"/>
+							<p class="card-title">Ingatlah bahwa tak ada yang abadi di dunia ini, termasuk masalah dalam hidupmu.</p>
+							<p class="card-description">Jalanilah hidupmu dg ikhlas!</p>
+						</div>
+						<div class="card-item">
+							<img src="assets/icon/mak.jpg" alt="icon 3"  class="icon"/>
+							<p class="card-title">Masa depan adalah milik mereka yang percayah dg impiannya</p>
+							<p class="card-description">Tidurlah dan perbanyak mimpimu!</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Erji website 2023</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://www.instagram.com/erji.___?igsh=YTQwZjQ0NmI0OA=="
+			}
+			
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6282269676993"
+			}
+		</script>
+    </body>
+</html>
